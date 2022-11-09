@@ -28,8 +28,8 @@ def load_model(model_path, model_template) -> nn.Module:
     if data_path just have one picture this function will return a tensor of image
     if data_path is a list this function will return a list of tensor
     
-    if you have some particular requests (such as not only use torchvision.transforms)
-    you could assign a method 'transforms method' to process  you image data
+    if you have some particular requests (such as not only using torchvision.transforms)
+    you could assign a method 'transforms method' to process  your image data
 '''
 
 
@@ -53,7 +53,7 @@ def data_processor(data_path, data_transforms=None, transforms_method=None, ) ->
 '''
 
 
-def show_image_by_plot(image_tensor, gray=False ,sigmoid=False) -> None:
+def show_image_by_plot(image_tensor, gray=False, sigmoid=False) -> None:
     if len(image_tensor.size()) == 4:
         out = image_tensor.squeeze(dim=0)
     out = image_tensor.permute(1, 2, 0)
@@ -80,6 +80,7 @@ def model_infer(model, inputs) -> tuple:
     else:
         return tuple(outputs)
 
+
 '''
 How to use it:
 '''
@@ -96,7 +97,7 @@ How to use it:
 #         return image
 #
 #
-#     net = load_model('../saved_model/SSLSOD_v2Model_100_gen.pth', model_template=model_stage3.RGBD_sal).eval()
+#     net = load_model('../saved_models/SSLSOD_v2Model_100_gen.pth', model_template=model_stage3.RGBD_sal).eval()
 #
 #     data = data_processor(['../test/000008_left.jpg', '../test/000008_left.png'],
 #                           transforms_method=test_method)
