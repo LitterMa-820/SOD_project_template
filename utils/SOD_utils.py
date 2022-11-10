@@ -97,7 +97,7 @@ How to use it:
 #         return image
 #
 #
-#     net = load_model('../saved_models/SSLSOD_v2Model_100_gen.pth', model_template=model_stage3.RGBD_sal).eval()
+#     net = load_model('../saved_models.md/SSLSOD_v2Model_100_gen.pth', model_template=model_stage3.RGBD_sal).eval()
 #
 #     data = data_processor(['../test/000008_left.jpg', '../test/000008_left.png'],
 #                           transforms_method=test_method)
