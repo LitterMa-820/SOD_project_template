@@ -24,5 +24,5 @@ In order to provide a simple, uniform and useful environment for researchers and
 # Acknowledgement
 
 ## Technical supports
-- evaluation metrics code is extract from https://github.com/Xiaoqi-Zhao-DLUT/SSLSOD. 
+- The evaluation metrics code was extracted from https://github.com/Xiaoqi-Zhao-DLUT/SSLSOD. 
 ## The works that used our template 
