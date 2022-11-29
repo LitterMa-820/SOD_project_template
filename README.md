@@ -1,5 +1,5 @@
 # What is this project about?
-&emsp;&emsp;This project is a template project for Salient Object Detection(SOD).
+&emsp;&emsp;This project is a template project for multi modality Salient Object Detection(SOD).
 # Why?
 &emsp;&emsp;Many authors of SOD paper uploaded corresponding codes to GitHub, but these codes are diverse and some may be hard to read.
 In order to provide a simple, uniform and useful environment for researchers and readers, we built this template. 
