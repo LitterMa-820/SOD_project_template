@@ -22,15 +22,3 @@ lfsd = os.path.join(lfsd_root_test)
 results_path = '../SSLSOD_v2Model_100_gen/'
 results_save_path = '../results_eval/'
 RGBD_SOD_Models = {'methodName': results_path}
-
-
-def getNet():
-	# return your model
-	pass
-    #return your model.cuda()
-
-
-def infer(net, rgb_trans, m_trans):
-	pass
-    #output = net(input)
-    #return your out put
