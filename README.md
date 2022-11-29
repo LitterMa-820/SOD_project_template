@@ -14,7 +14,7 @@ In order to provide a simple, uniform and useful environment for researchers and
   - The method to load image data.
 - result_eval
   - This directory has some evaluating metrics of SOD task (MAE,maxF,avgF,wFm,SM,EM,et al), filling path in score_config.py and run sod_test_score.py to use it.
-  - first python .\prediction.py --ss='your model snapshot' --modal='rgbd or rgbd'
+  - first modify you model and infering in score_config.py. python .\prediction.py --ss='your model snapshot' --modal='rgbd or rgbd'
   - second python .\mae_mF_wF_Sm_Em.py --mn='your method name' --modal='rgbd or rgbd' --p='the prediction document name in results' --sn='result file name'
 - utils
   - This directory has many useful tools like model parameters loading and visible model test. The utils chapter will introduce all function of it at large.
